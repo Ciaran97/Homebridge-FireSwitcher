@@ -1,6 +1,6 @@
 {
   "name": "homebridge-fireswitch",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Homebridge Switch Plugin for Firebase",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mlaanderson/homebridge-fireswitch.git"
+    "url": "git+https://github.com/Ciaran97/Homebridge-FireSwitcher"
   },
   "keywords": [
     "homebridge-plugin",
@@ -18,13 +18,16 @@
   "author": "Michael Anderson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mlaanderson/homebridge-fireswitch/issues"
+    "url": "https://github.com/Ciaran97/Homebridge-FireSwitcher/issues"
   },
-  "homepage": "https://github.com/mlaanderson/homebridge-fireswitch#readme",
+  "homepage": "https://github.com/Ciaran97/Homebridge-FireSwitcher#readme",
   "dependencies": {
     "firebase": "^2.4.2"
   },
   "engines": {
     "homebridge": ">=0.2.0"
-  }
+  },
+"publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+}
 }
